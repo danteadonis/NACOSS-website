@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>NACOSS || UNILORIN</title>
+        <meta charset= "utf-8" />
+        <meta name= "description" content= "A website displaying the NACOSS of CIS" />
+        <meta name= "viewport" content= "width:device-width, initial-scale=1.0" />
+        <link rel= "stylesheet" href= "css folder/main.css" />
+        <link rel= "stylesheet" href= "styling/bootstrap/bootstrap.css" />
+        <link rel= "stylesheet" href= "styling/bootstrap/bootstrap.min.css" />
+        <link rel= "stylesheet" href= "styling/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    </head>
+    <body>
+        <header>
+            <div id= "banner">
+                <img src= "images/nacoss logo.jpg" id= "header-img-1" alt= "An image of our NACOSS logo" />
+                <a href= "index.html">
+                    <h1 id= "headertext"><b>National Association Of Computer Science Students</b></h1>
+                </a>
+                <img src= "images/nacoss.jpg" id= "header-img-2" alt= "An image of our NACOSS logo" />
+            </div>
+            <!-- navbar with dropdown on all pages, and toggle icon for mobile devices using bootstrap 4 -->
+            <nav class= "navbar navbar-expand-lg navbar-toggleable-md navbar-light bg-dark mb-2">
+                <div class= "navbar-brand text-white">NACOSS || UNILORIN</div>
+                <button class= "navbar-toggler navbar-toggler-right" type= "button" data-toggle= "collapse" data-target= "#nav-toggle" aria-controls= "nav-toggle" aria-expanded= "false" aria-labelledby= "toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class= "collapse navbar-collapse" id= "nav-toggle">
+                    <ul class= "navbar-nav nav-tabs mr-auto">
+                        <li class= "nav-item">
+                            <a href= "index.html" class= "nav-link" style= "color: white;">Home</a>
+                        </li>
+                        <li class= "nav-item">
+                            <a href= "news.html" class= "active nav-link">News</a>
+                        </li>
+                        <!-- dropdown and dropdown items -->
+                        <li class= "nav-item">
+                            <div class= "dropdown">
+                                <a href= "#" style= "color: white;" class= "nav-link dropdown-toggle" id= "dropdown-menu-link" role= "button" data-toggle= "dropdown" aria-haspopup= "true" aria-expanded= "false">
+                                    More
+                                </a>
+                                <div class= "dropdown-menu" aria-labelledby= "dropdown-menu-link">
+                                    <a href= "members.html" class= "dropdown-item">Our Members</a>
+                                    <a href= "login.html" class= "dropdown-item">Log In</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id= "wrapper">
+            <h1 class= "text-center">Welcome To Our News Section</h1>
+            <h3 class= "text-center">Where we bring you the latest and hottest gist on campus!</h3>
+            <hr />
+            <!-- beginning of carousel to slide news across the page  -->
+            <h3 class= "text-center">HEADLINES</h3>
+            <div id= "slider" class= "carousel slide" data-ride= "carousel">
+                <div class= "carousel-inner" role= "listbox">
+                    <div class= "card carousel-item bg-dark text-white text-center active">
+                        <div>
+                            <h4 class= "card-header">Academics</h4>
+                            <p class= "card-body">Exam timetable is out, and it's scheduled for 8th of July.</p>
+                            <p class= "card-footer">next week</p>
+                        </div>
+                    </div>
+                    <div class= "card carousel-item bg-dark text-white text-center">
+                        <div>
+                            <h4 class= "card-header">Entertainment</h4>
+                            <p class= "card-body">Final Year Week ended on the 28th of June. And all sorts of entertaining events were seen.</p>
+                            <p class= "card-footer">last week</p>
+                        </div>
+                    </div>
+                    <div class= "card carousel-item bg-dark text-white text-center">
+                        <div>
+                            <h4 class= "card-header">Politics</h4>
+                            <p class= "card-body">Student Union electoral activities commence in full with all sorts of side attractions.</p>
+                            <p class= "card-footer">ongoing</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- next and previous icons that control the carousel -->
+                <a href= "#slider" class= "carousel-control-prev" data-slide= "prev">
+                    <span class= "carousel-control-prev-icon bg-dark"></span>
+                </a>
+                <a href= "#slider" class= "carousel-control-next" data-slide= "next">
+                    <span class= "carousel-control-next-icon bg-dark"></span>
+                </a>
+            </div>
+            <!-- end of carousel -->
+            <hr />
+            <!-- beginning of page section -->
+            <div class= "d-flex flex-wrap flex-row align-items-stretch">
+                <div class= "mr-auto">
+                    <div class= "p-4 item-hl mt-2" id= "trending">
+                        <p><h3><u>Trending News</u></h3></p>
+                        <div>
+                            <h4>Entertainment</h4>
+                            <p>Face Of Unilorin activities coming to a close soon with the grand finale around the corner.</p>
+                            <hr />
+                        </div>
+                        <div>
+                            <h4>Post UTME</h4>
+                            <p>Post UTME registration available for all aspiring Unilorites.</p>
+                            <hr />
+                        </div>
+                        <div>
+                            <h4>Student Union Games</h4>
+                            <p>The SU Games come to an end for the semester, with various teams from various faculties grabbing their trophies quickly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "p-4 item-hl mt-2" id= "general">
+                    <p><h3><u>General News</u></h3></p>
+                    <div>
+                        <div>
+                            <h4>Bulletine</h4>
+                            <p>The UNILORIN Bulletine set to get a brand new design.</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div>
+                            <h4>Renovation</h4>
+                            <p>Renovation of walkway toilets still ongoing.</p>
+                            <p>This is aimed at giving students maximum satisfaction when they go to answer the call of nature.</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div>
+                        <div>
+                            <h4>Accedemics</h4>
+                            <p>GLOBACOM Officials were around on the 21st of June to award the overall best students with the overall best results.</p>
+                            <p>Only students whose CGPAs were within the range of 4.8 to 5.0, and currently in 100 and 200 levels respectively, were awarded.</p>
+                            <br />
+                            This is a good achievement for the school, as getting recognized by such bodies is no small feat.
+                        </div>
+                    </div>
+                </div>
+                <div class= "card ml-md-auto mt-2" id= "ads">
+                    <div class= "p-4 item-hl ml-6">
+                        <aside><h3>Ads</h3></aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of main article -->
+        <!-- Footer items here -->
+        <footer class= "footer bg-dark d-flex">
+            <ul id= "footer-list">
+                <li>
+                    <a href= "index.html">Back Home</a>
+                </li>
+                <li>
+                    <a href= "about.html">About Us</a>
+                </li>
+                <li>
+                    <a href= "contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <div id= "copyright">
+                        &copy 2019 CSC 224 Group 1
+                    </div>
+                </li>
+            </ul>
+        </footer>
+    </body>
+    <!-- end of body and footer, external javascript files added here. -->
+    <script src= "js/jquery-3.3.1.min.js"></script>
+    <script src= "styling/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src= "styling/bootstrap/popper.js"></script>
+    <script src= "styling/bootstrap/bootstrap.js"></script>
+    <script src= "styling/bootstrap/bootstrap.min.js"></script>
+</html>

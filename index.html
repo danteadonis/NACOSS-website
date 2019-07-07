@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>NACOSS || UNILORIN</title>
+        <meta charset= "utf-8" />
+        <meta name= "description" content= "A website displaying the NACOSS of CIS" />
+        <meta name= "viewport" content= "width:device-width, initial-scale=1.0" />
+        <link rel= "stylesheet" href= "css folder/main.css" />
+        <link rel= "stylesheet" href= "styling/bootstrap/bootstrap.css" />
+        <link rel= "stylesheet" href= "styling/bootstrap/bootstrap.min.css" />
+    </head>
+    <body>
+        <header>
+            <div id= "banner">
+                <img src= "images/nacoss logo.jpg" id= "header-img-1" alt= "An image of our NACOSS logo" />
+                <a href= "index.html">
+                    <h1 id= "headertext"><b>National Association Of Computer Science Students</b></h1>
+                </a>
+                <img src= "images/nacoss.jpg" id= "header-img-2" alt= "An image of our NACOSS logo" />
+            </div>
+            <!-- navbar with dropdown on all pages, and toggle icon for mobile devices using bootstrap 4 -->
+            <nav class= "navbar navbar-expand-lg navbar-toggleable-md navbar-light bg-dark mb-1">
+                <div class= "navbar-brand text-white">NACOSS || UNILORIN</div>
+                <button class= "navbar-toggler navbar-toggler-right" type= "button" data-toggle= "collapse" data-target= "#navtoggle" aria-controls= "navtoggle" aria-expanded= "false" aria-labelledby= "toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class= "collapse navbar-collapse" id= "navtoggle">
+                    <ul class= "navbar-nav nav-tabs mr-auto">
+                        <li class= "nav-item">
+                            <a href= "index.html" class= "nav-link active">Home</a>
+                        </li>
+                        <li class= "nav-item">
+                            <a href= "news.html" class= "nav-link" style= "color: white;">News</a>
+                        </li>
+                        <!-- dropdown and dropdown items -->
+                        <li class= "nav-item">
+                            <div class= "dropdown">
+                                <a href= "#" style= "color: white;" class= "nav-link dropdown-toggle" id= "dropdown-menu-link" role= "button" data-toggle= "dropdown" aria-haspopup= "true" aria-expanded= "false">
+                                    More
+                                </a>
+                                <div class= "dropdown-menu" aria-labelledby= "dropdown-menu-link">
+                                    <a href= "members.html" class= "dropdown-item">Our Members</a>
+                                    <a href= "login.html" class= "dropdown-item">Log In</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id= "wrapper">
+            <div class="row">
+                <aside class= "col-md-4">
+                    <h3>Our Vision</h3>
+                    <p>To be more than just observers, or a group of students who just want to pass. Rather, we aim to impact our country, and the world at large, positively through the use of one of the most powerful tools known: Technology.</p>
+                    <hr />
+                    <h3>Our Mission</h3>
+                    <p>To equip and empower ICT proficient students across the country starting with our great faculty, for ICT lies at the core of every organization today.</p>
+                    <hr />
+                    <h3>Who Are We?</h3>
+                    <p>We are the National Association Of Computer Science Students.</p>
+                    <p id= "ourName">
+                        <b>
+                            <i>NACOSS!</i>
+                        </b>
+                    </p>
+                </aside>
+                <img src= "images/person1.jpg" class= "col-sm-4" alt= "main image" id= "main-img" />
+                <!-- sign up form -->
+                <form action= "#" method= "get" class= "col-md-4" id= "sign-up-form">
+                    <h2 id= "form-header">Join Us!</h2>
+                    <p>Please type in  your first name.</p>
+                    <input type= "text" name= "first name" required= "required" />
+                    <p>What's your last name?</p>
+                    <input type= "text" name= "last name" required= "required" />
+                    <p>Enter your date of birth</p>
+                    <input type= "date" name= "DoB" />
+                    <p>Enter your phone number</p>
+                    <input type= "tel" name= "phone number" maxlength= "11" />
+                    <p>Enter your email.</p>
+                    <input type= "email" name= "email" placeholder= "example@mail.com" />
+                    <p>Type in your desired username.</p>
+                    <input type= "text" name= "username" placeholder= "enter your username" required= "required" />
+                    <p>Please use a strong password.
+                        <br /> E.g 'H3LL0'
+                    </p>
+                    <input type= "password" name= "password" placeholder= "enter your password" required= "required" />
+                    <p>Please type in your password again.</p>
+                    <input type= "password" name= "confirm password" placeholder= "confirm your password" required= "required" />
+                    <br />
+                    <br />
+                    <p>
+                        <input type= "submit" value= "Submit Form" id= "submitButton" />
+                    </p>
+                </form>
+            </div>
+        </div>
+        <!-- Footer items here -->
+        <footer class= "footer bg-dark d-flex">
+            <ul id= "footerList">
+                <li>
+                    <a href= "index.html">Back Home</a>
+                </li>
+                <li>
+                    <a href= "about.html">About Us</a>
+                </li>
+                <li>
+                    <a href= "contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <div id= "copyright">
+                        &copy 2019 CSC 224 Group 1
+                    </div>
+                </li>
+            </ul>
+        </footer>
+    </body>
+    <!-- end of body and footer, external javascript files added here. -->
+    <script src= "js/jquery-3.3.1.min.js"></script>
+    <script src= "styling/bootstrap/popper.js"></script>
+    <script src= "styling/bootstrap/bootstrap.js"></script>
+    <script src= "styling/bootstrap/bootstrap.min.js"></script>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>NACOSS || UNILORIN</title>
+        <meta charset= "utf-8" />
+        <meta name= "description" content= "A website displaying the NACOSS of CIS" />
+        <meta name= "viewport" content= "width:device-width, initial-scale=1.0" />
+        <link rel= "stylesheet" href= "css folder/main.css" />
+        <link rel= "stylesheet" href= "styling/bootstrap/bootstrap.css" />
+        <link rel= "stylesheet" href= "styling/bootstrap/bootstrap.min.css" />
+    </head>
+    <body>
+        <header>
+            <div id= "banner">
+                <img src= "images/nacoss logo.jpg" id= "header-img-1" alt= "An image of our NACOSS logo" />
+                <a href= "index.html">
+                    <h1 id= "headertext"><b>National Association Of Computer Science Students</b></h1>
+                </a>
+                <img src= "images/nacoss.jpg" id= "header-img-2" alt= "An image of our NACOSS logo" />
+            </div>
+            <!-- navbar with dropdown on all pages, and toggle icon for mobile devices using bootstrap 4 -->
+            <nav class= "navbar navbar-expand-lg navbar-toggleable-md navbar-light bg-dark mb-2">
+                <div class= "navbar-brand text-white">NACOSS || UNILORIN</div>
+                <button class= "navbar-toggler navbar-toggler-right" type= "button" data-toggle= "collapse" data-target= "#nav-toggle" aria-controls= "nav-toggle" aria-expanded= "false" aria-labelledby= "toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class= "collapse navbar-collapse" id= "nav-toggle">
+                    <ul class= "navbar-nav nav-tabs mr-auto">
+                        <li class= "nav-item">
+                            <a href= "index.html" class= "nav-link" style= "color: white;">Home</a>
+                        </li>
+                        <li class= "nav-item">
+                            <a href= "news.html" class= "nav-link" style= "color: white;">News</a>
+                        </li>
+                        <!-- dropdown and dropdown items -->
+                        <li class= "nav-item">
+                            <div class= "dropdown">
+                                <a href= "#" class= "active nav-link dropdown-toggle" id= "dropdown-menu-link" role= "button" data-toggle= "dropdown" aria-haspopup= "true" aria-expanded= "false">
+                                    More
+                                </a>
+                                <div class= "dropdown-menu" aria-labelledby= "dropdown-menu-link">
+                                    <a href= "members.html" class= "dropdown-item">Our Members</a>
+                                    <a href= "login.html" class= "dropdown-item">Log In</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id= "wrapper">
+            <div class= "container">
+                <h1>About NACOSS</h1>
+                <h4>The Nigerian Association Of Computer Science Students (NACOSS) is a student professional body with presence in all federal and private universities across the country. The association is an umbrella for young vibrant proffessionals to showcase their skills in the technology department.
+                    <br />
+                    It is also an avenue to empower computer science students across the country, and to equip them with the necessary skills needed for them to make their stand in the labour market through th use of technological tools.
+                </h4>
+            </div>
+        </div>
+        <!-- Footer items here -->
+        <footer class= "footer fixed-bottom bg-dark d-flex">
+            <ul id= "footer-list">
+                <li>
+                    <a href= "index.html">Back Home</a>
+                </li>
+                <li>
+                    <a href= "about.html">About Us</a>
+                </li>
+                <li>
+                    <a href= "contact.html">Contact Us</a>
+                </li>
+                <li>
+                    <div id= "copyright">
+                        &copy 2019 CSC 224 Group 1
+                    </div>
+                </li>
+            </ul>
+        </footer>
+    </body>
+    <!-- end of body and footer, external javascript files added here. -->
+    <script src= "js/jquery-3.3.1.min.js"></script>
+    <script src= "styling/bootstrap/popper.js"></script>
+    <script src= "styling/bootstrap/bootstrap.js"></script>
+    <script src= "styling/bootstrap/bootstrap.min.js"></script>
+</html>
